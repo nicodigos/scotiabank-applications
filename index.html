@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nicolas Peralta — Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Nicolas Peralta</h1>
+      <h2>Business Intelligence | Web Development</h2>
+      <p>
+        I am a technology professional with strong experience in data
+        processing, business intelligence, and software development. I
+        specialize in creating real-time dashboards, ETL pipelines, and
+        full-stack web applications. Currently, I am focused on expanding my
+        career in Canada.
+      </p>
+    </header>
+
+    <section class="buttons">
+      <a href="cv/Nicolas_Peralta_CV.pdf" class="btn tooltip" download>
+        Download CV
+        <span class="tooltiptext"
+          >Each application receives a specific CV tailored for the
+          position</span
+        >
+      </a>
+
+      <a
+        href="https://www.linkedin.com/in/nicolas-peralta-paez"
+        class="btn"
+        target="_blank"
+        >LinkedIn</a
+      >
+      <a
+        href="https://gdp-comparison-xewq6ssyzdnxaeqhzff4nk.streamlit.app/"
+        class="btn"
+        target="_blank"
+        >Project 1: Global GDP</a
+      >
+      <a
+        href="https://csvprofiler-7v7lhfwgrtbphxyuq4ycz4.streamlit.app/"
+        class="btn"
+        target="_blank"
+        >Project 2: Dataframe Profiler</a
+      >
+      <a
+        href="https://nicodigos-dashboard.streamlit.app/"
+        class="btn"
+        target="_blank"
+        >Project 3: How Canada Works</a
+      >
+    </section>
+
+    <section class="applications">
+      <h3>Job Applications</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Location</th>
+            <th>Requisition ID</th>
+          </tr>
+        </thead>
+        <tbody id="applications-list">
+          <!-- Filled by JS -->
+        </tbody>
+      </table>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
