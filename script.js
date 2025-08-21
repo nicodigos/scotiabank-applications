@@ -50,3 +50,5 @@ applications.forEach((app) => {
 
   tbody.appendChild(tr);
 });
+
+// loading
