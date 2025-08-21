@@ -1,5 +1,29 @@
 const applications = [
   {
+    name: "Data Analyst, Global Client Experience Centre ",
+    link: "https://jobs.scotiabank.com/job/Toronto-Data-Analyst%2C-Global-Client-Experience-Centre-ON-M5H1N1/594798417/",
+    location: "Toronto, ON, CA, M5H1H1 ",
+    requisition: "233086",
+  },
+  {
+    name: "Business Solution Expert  , Scotiabank",
+    link: "https://jobs.scotiabank.com/job/Toronto-Business-Solution-Expert-ON-M5H1B6/594848117/",
+    location: "Toronto, ON, CA, M5H1H1 ",
+    requisition: "233430",
+  },
+  {
+    name: "Business Analyst , Scotiabank",
+    link: "https://jobs.scotiabank.com/job/Toronto-Business-Analyst-ON-M5H1H1/594838617/",
+    location: "Toronto, ON, CA, M5H1H1 ",
+    requisition: "233297",
+  },
+  {
+    name: "  Senior Business Analyst, Scotiabank",
+    link: "https://jobs.scotiabank.com/job/Toronto-Senior-Business-Analyst-ON-M5H-1H1/594901017/",
+    location: "Toronto, ON, CA, M5H1H1 ",
+    requisition: "233345",
+  },
+  {
     name: "  Business Analysis Specialist - Global Equities Technology, Scotiabank",
     link: "https://jobs.scotiabank.com/job/Toronto-Business-Analysis-Specialist-Global-Equities-Technology-ON-M5H1H1/594123617/",
     location: "Toronto, ON, CA, M5H1H1 ",
